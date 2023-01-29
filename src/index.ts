@@ -6,15 +6,14 @@ import { NumbersCollection } from "./NumbersCollection";
 // numbersCollection.sort();
 // console.log(numbersCollection.data);
 
-const charactersCollection = new CharactersCollection("Ciao");
-charactersCollection.sort();
-console.log(charactersCollection.data);
+// const charactersCollection = new CharactersCollection("Ciao");
+// charactersCollection.sort();
+// console.log(charactersCollection.data);
 
-// const linkedList = new LinkedList();
-// linkedList.add(20);
-// linkedList.add(-2);
-// linkedList.add(0);
-// linkedList.add(30);
-// const linkedListSorter = new Sorter(linkedList);
-// linkedListSorter.sort();
-// linkedList.print();
+const linkedList = new LinkedList();
+linkedList.add(20);
+linkedList.add(-2);
+linkedList.add(0);
+linkedList.add(30);
+linkedList.sort();
+linkedList.print();
